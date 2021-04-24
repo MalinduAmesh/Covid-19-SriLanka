@@ -1,0 +1,72 @@
+
+  /* /*-------------------------------------------------------Landing Page/*-------------------------------------------------------*/
+  @media screen and (max-width:460px) and (min-width:360px){
+    
+    .toggle-button {
+      position: absolute;
+      top: 1.75rem;
+      right: 1rem;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 63px;
+      height: 34px;
+    }
+      .toggle-button{
+          display: flex;
+      }
+      .navBar-links{
+          width: 100%;
+          display: none;
+      }
+      .navBar{
+        position: absolute;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 400vw;
+        height: 11em;
+      }
+      .navBar-links ul{
+          flex-direction: column;
+      }
+      .navBar-links li{
+          text-align: center;
+          left: -10em;
+      }
+      .navBar-links li a{
+        padding: .5rem 1rem;
+        font-size: 4em;
+      }
+      .navBar-links.active{
+          display: flex;
+          justify-content: center;
+          
+      }
+      .brand-logo img{
+        position: relative;
+      width: 18em;
+      height: auto;
+      }
+      .brand-logo h2 {
+        color: #1d1c1c;
+        font-size: 6em;
+        top: -47px;
+        position: relative;
+        font-weight: 900;
+        letter-spacing: 2px;
+        font-family: 'Work Sans', sans-serif;
+    }
+      .navUl {
+        list-style: none;
+        font-family: 'Play', sans-serif;
+        font-size: 40px;
+        position: absolute;
+        top: 20em;
+        left: 28em;
+        width: 551vw;
+        letter-spacing: 60px;
+        opacity: 0.4;
+        background: #98939e;
+        transform: translate(-50%, -50%);
+    }
+  }
