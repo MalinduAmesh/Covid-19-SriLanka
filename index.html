@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/normalize.css">
 
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
      <!--Fonts-->
      <link rel="preconnect" href="https://fonts.gstatic.com">
      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
@@ -22,6 +26,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&display=swap" rel="stylesheet">
   <!--End fonts-->
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"></script>
 </head>
 <body>
     <nav class="navBar">
@@ -35,8 +40,8 @@
         <ul class="navUl">
             
             <li><a href="#lands">HOME</a> </li>
-            <li><a href="#today">Today Cases</a> </li>
-            <li><a href="#stac">Statics</a></li>
+            <li><a href="#today">LOCAL CASES</a> </li>
+            <li><a href="#stac">WORLD CASES</a></li>
             <li><a href="#contactus">CONTACT US</a> </li> 
 
         </ul>
@@ -85,17 +90,43 @@
             <label id="cases-item-lbl4" ></label>
             </div>
 
-        <button id="Get">Get All Data</button>
+    
 
     </section>
 
 </section>
+<section class="total-LineChart" id="stac">
+
+    <div class="container" style="position: relative; height:60vh; width:80vw; display: flex;justify-content: center;left: 8em;">
+        <canvas id="mychart"></canvas>
+    </div>
+
+</section>
+<footer id="contactus">
+    <div class="footer-content">
+        <h3>Contact For More</h3>
+        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p> -->
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2020 Malindu Amesh. designed by <span>Autumun FOX</span></p>
+    </div>
+</footer>
 
     <!-- Link Jquery -->
     <script src="js/jquery-3.6.0.min.js"></script>
 
     <!-- Link Script -->
     <script src="js/script.js"></script>
+
+    <!-- Link Line Chart -->
+    <script src="js/LineChart.js"></script>
 
 </body>
 </html>

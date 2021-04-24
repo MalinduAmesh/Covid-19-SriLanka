@@ -120,7 +120,7 @@ body{
   .Total_Cases{
       position: relative;
       width: 100vw;
-      height: 100vh;
+      height: 90vh;
       /* background-image: linear-gradient(to right top, #ededed, #ebebeb, #e9eae9, #e8e8e8, #e6e6e6, #e5e5e9, #e3e5eb, #dfe5ee, #d4e8f4, #c7ecf4, #bdefed, #bcf1df); */
       background-color: #FAFAFA;
   }
@@ -269,4 +269,85 @@ body{
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
+}
+
+.total-LineChart{
+  position: relative;
+  width: 100vw;
+  height: 77vh;
+}
+
+footer{
+  position: relative;
+  background: #111;
+  bottom: 4em;
+  /* left: 0; */
+  /* right: 0; */
+  background: #111;
+  height: 26vh;
+  width: 100vw;
+  font-family: "Ubuntu";
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  color: #1abc9c;
+  position: relative;
+  top: 1em;
+  left: 17px;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
 }
