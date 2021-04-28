@@ -11,3 +11,8 @@
        document.getElementById('cases-item-lbl4').innerHTML = `${data.data.local_recovered}`
        console.log(data.data.local_deaths)
     })
+    const scrollButton = document.querySelector(".scroll-top");
+    scrollButton.addEventListener("click", () => {
+      window.scrollTo(0, 0);
+    });
+    
