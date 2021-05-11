@@ -4,7 +4,7 @@
     .then((response) => response.json())
     .then((data) =>{
 
-
+      document.getElementById('cases-item-lbl5').innerHTML = `${data.data.update_date_time}`
        document.getElementById('cases-item-lbl1').innerHTML =  `${data.data.local_total_cases}`
        document.getElementById('cases-item-lbl2').innerHTML = `${data.data.local_new_cases}`
        document.getElementById('cases-item-lbl3').innerHTML = `${data.data.local_deaths}`
