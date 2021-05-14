@@ -106,7 +106,15 @@ html {
   width: 100vw;
   height: auto;
   /* z-index: -1000; */
-  clip-path: polygon(48% 0, 56% 50%, 48% 100%, 0% 100%, 0 50%, 0% 0%);
+  clip-path: polygon(48% 0, 56% 50%, 48% 84.5%, 0% 84.5%, 0 50%, 0% 0%);
+}
+.topicForLand p{
+  position: relative;
+  left: 66%;
+  /* top: 56%; */
+  bottom: 15em;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
 }
 .navBar{
     box-sizing: border-box;
